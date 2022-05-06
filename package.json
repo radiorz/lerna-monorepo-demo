@@ -10,7 +10,7 @@
   },
   "scripts": {
     "boot": "lerna bootstrap",
-    "patch": "lerna version patch --conventional-commits --yes",
+    "patch": "lerna version patch",
     "dev": "yarn workspace <packagename> dev"
   },
   "repository": {
