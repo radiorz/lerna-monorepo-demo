@@ -1,6 +1,15 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "0.0.0"
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "0.0.0",
+  "command": {
+    "version": {
+      "exact": true,
+      "ignoreChanges": [
+        "**/*.md"
+      ],
+      "message": "build: release version %v"
+    },
+    "publish": {}
+  }
 }

@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "scripts": {
-    "boot": "echo \"Error: no test specified\" && exit 1",
-    "patch": "lerna version patch --conventional-commits --yes"
+    "boot": "lerna bootstrap",
+    "patch": "lerna version patch --conventional-commits --yes",
+    "dev": "yarn workspace <packagename> dev"
   },
   "repository": {
     "type": "git",
