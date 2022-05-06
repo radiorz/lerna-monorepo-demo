@@ -1,0 +1,20 @@
+{
+  "name": "lerna-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "boot": "echo \"Error: no test specified\" && exit 1",
+    "patch": "lerna version patch --conventional-commits --yes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:radiorz/lerna-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
