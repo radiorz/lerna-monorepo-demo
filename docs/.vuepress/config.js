@@ -13,9 +13,10 @@ module.exports = {
           { text: "后端", link: "/app/" },
         ],
       },
+      { text: "TODO", link: "/src/TODO/" },
     ],
     sidebar: {
-      "/guide/": ["lerna", "release", "todo"],
+      "/src/guide/": ["lerna", "release", "temp"],
     },
   },
 };
