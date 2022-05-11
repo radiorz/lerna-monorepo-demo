@@ -1,0 +1,17 @@
+{
+  "name": "@license-server/docs",
+  "version": "1.4.3",
+  "private": true,
+  "description": "文档",
+  "author": "meeyi",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vuepress dev . --temp .temp",
+    "build": "vuepress build . --temp .temp",
+    "help": "vuepress --help",
+    "info": "vuepress info"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
