@@ -6,13 +6,15 @@
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "docs"
     ]
   },
   "scripts": {
     "boot": "lerna bootstrap",
     "patch": "lerna version patch --conventional-commits --yes",
-    "dev": "yarn workspace <packagename> dev"
+    "dev": "yarn workspace <packagename> dev",
+    "docs": "yarn workspace docs dev"
   },
   "repository": {
     "type": "git",

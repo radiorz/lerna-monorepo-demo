@@ -1,6 +1,6 @@
 {
-  "name": "@license-server/docs",
-  "version": "1.4.3",
+  "name": "@app/docs",
+  "version": "1.0.1",
   "private": true,
   "description": "文档",
   "author": "meeyi",

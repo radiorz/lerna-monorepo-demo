@@ -4,7 +4,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: "主页", link: "/" },
-      { text: "开发指南", link: "/guide/" },
+      { text: "开发指南", link: "/src/guide/" },
       {
         text: "项目说明",
         ariaLabel: "/",
@@ -15,7 +15,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/guide/": ["temp"],
+      "/guide/": ["lerna", "release", "todo"],
     },
   },
 };
