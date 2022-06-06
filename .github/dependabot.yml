@@ -1,7 +1,7 @@
 version: 2
 updates:
-  - package-ecosystem: "composer"
-    # Files stored in repository root
+  - package-ecosystem: "npm"
+    # Look for `package.json` and `lock` files in the `root` directory
     directory: "/"
     schedule:
       interval: "daily"
